@@ -3,7 +3,7 @@
 
 Name:               bacula
 Version:            5.2.13
-Release:            18%{?dist}
+Release:            18%{?dist}.centos
 Summary:            Cross platform network backup for Linux, Unix, Mac and Windows
 # See LICENSE for details
 License:            AGPLv3 with exceptions
@@ -915,6 +915,9 @@ fi
 %{_libdir}/nagios/plugins/check_bacula
 
 %changelog
+* Fri Jun 26 2015 Johnny Hughes <johnny@centos.org> - 5.2.13-18.centos
+- Modify the patch bacula-multilib.patch to add __arm__ 
+
 * Tue Mar 18 2014 Petr Hracek <phracek@redhat.com> - 5.2.13-18
 - Resolves: #881146 Multilib issue
 
