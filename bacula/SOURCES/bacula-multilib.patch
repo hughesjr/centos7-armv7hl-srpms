@@ -2,7 +2,7 @@ diff --git a/src/host.h.in b/src/host.h.in
 index 3fdbb05..1b3e684 100644
 --- a/src/host.h.in
 +++ b/src/host.h.in
-@@ -30,7 +30,23 @@
+@@ -30,7 +30,25 @@
   *
   */
  
